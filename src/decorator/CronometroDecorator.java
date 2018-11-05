@@ -1,5 +1,14 @@
 package decorator;
 
-public class CronometroDecorator {
+class CronometroDecorator implements Componente {
+	
+	protected Componente componentePronto;
+
+
+	@Override
+	public void executarTarefa() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

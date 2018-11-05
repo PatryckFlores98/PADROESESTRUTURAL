@@ -1,5 +1,5 @@
 package decorator;
 
-public class Componente {
+interface Componente { void executarTarefa() throws InterruptedException;
 
 }
