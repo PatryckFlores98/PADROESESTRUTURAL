@@ -4,14 +4,13 @@ public class NumeroUmDecorator extends NumeroUm{
     private NumeroUm numeroUm;
 
 
-    public NumeroDecorator(NumeroUm novonumeroUm){
+    public NumeroUmDecorator(NumeroUm novonumeroUm){
         numeroUm = novonumeroUm;
-
     }
 
     @Override
-    public String imprimir(){
+    public int imprimir(){
         return numeroUm.imprimir();
     }
 }
-}
+
