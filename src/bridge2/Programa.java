@@ -7,11 +7,11 @@ import java.util.List;
 public class Programa {
     public static void main(String[] args) {
         ListaImpl listaOrdenada = new ListaOrdenada();
-        listaOrdenada.adicionar("uva");
-        listaOrdenada.adicionar("chocolate");
-        listaOrdenada.adicionar("abacaxi");
-        listaOrdenada.adicionar("refri");
-        listaOrdenada.adicionar("bolo");
+        listaOrdenada.adicionar("açai");
+        listaOrdenada.adicionar("laranja");
+        listaOrdenada.adicionar("limão");
+        listaOrdenada.adicionar("água");
+        listaOrdenada.adicionar("sopa");
 
         AbstracaoImpressao impressaoLetras = new ItensCaracteres(listaOrdenada);
         impressaoLetras.imprimeItens();

@@ -1,10 +1,5 @@
 package bridge2;
-
-import sun.net.www.content.text.Generic;
-
-import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
 
 public class ListaOrdenada implements ListaImpl {
         private LinkedList<String> lista;

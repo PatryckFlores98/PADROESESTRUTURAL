@@ -1,9 +1,9 @@
 package decorator2;
 
 public class NumeroUm {
-	int um = 1;
+	private String um = "1";
 	
-	public int imprimir() {
+	public String imprimir() {
 		return um;
 	}
 }

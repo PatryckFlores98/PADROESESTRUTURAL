@@ -1,10 +1,6 @@
 package bridge2;
 
-import org.omg.CORBA.Object;
-import sun.net.www.content.text.Generic;
-
 import java.util.ArrayList;
-import java.util.List;
 
 public class ListaDesordenada implements ListaImpl {
     private ArrayList<String> lista;

@@ -9,7 +9,7 @@ public class NumeroUmDecorator extends NumeroUm{
     }
 
     @Override
-    public int imprimir(){
+    public String imprimir(){
         return numeroUm.imprimir();
     }
 }
